@@ -7,7 +7,7 @@ module.exports = {
   mode: "development",
   devtool: "eval-source-map",
   devServer: {
-    contentBase: path.join(__dirname, '../src/'),
+    static: path.join(__dirname, '../src/'),
   },
   module: {
     rules: [
